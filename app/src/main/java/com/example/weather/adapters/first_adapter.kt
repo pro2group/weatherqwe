@@ -12,6 +12,4 @@ class first_adapter (fa:FragmentActivity, private var list:List<Fragment>):Fragm
     override fun createFragment(position: Int): Fragment {
         return list [position]
     }
-
-
 }
